@@ -1,0 +1,19 @@
+[project]
+name = "fastapi-to-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.116.2",
+    "fastmcp>=2.12.3",
+    "loguru>=0.7.3",
+    "mcp>=1.14.1",
+    "ngrok>=1.5.1",
+    "openai>=1.108.1",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.13.1",
+]

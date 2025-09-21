@@ -314,3 +314,4 @@ pyrightconfig.json
 
 *.zellij
 
+.infisical*
