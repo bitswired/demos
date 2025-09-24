@@ -36,7 +36,7 @@ async def mcp_client_call_weather():
 
 
 async def openai_list_tools():
-    openai_client = OpenAI(http_client=httpx.AsyncClient(verify=False, timeout=30.0))
+    openai_client = OpenAI()
 
     resp = await openai_client.responses.create(
         model="gpt-5-nano",
