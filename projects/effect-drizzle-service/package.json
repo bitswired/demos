@@ -1,0 +1,23 @@
+{
+	"name": "effect-drizzle-service",
+	"module": "index.ts",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"db:push": "drizzle-kit push"
+	},
+	"devDependencies": {
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5"
+	},
+	"dependencies": {
+		"@effect/platform": "^0.93.1",
+		"@effect/platform-bun": "^0.83.0",
+		"@libsql/client": "^0.15.15",
+		"drizzle-kit": "^0.31.6",
+		"drizzle-orm": "^0.44.7",
+		"effect": "^3.19.3"
+	}
+}
